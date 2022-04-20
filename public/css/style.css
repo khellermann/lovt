@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Ropa+Sans&display=swap');
+
+* {
+  padding: 0%;
+  margin: 0%;
+  font-family: 'Ropa Sans';
+  font-weight: normal;
+}
+.headerMain{
+  display: flex;
+  height: 49px;
+  background: #FFFFFF;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.25);
+}
+.container{
+  width: 608px;
+  margin: 0 auto;
+}
+
+.headerMain .container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav img{
+  cursor: pointer;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+main .banner{
+  margin-top: 20px;
+}
+
+.destaques{
+  margin-top: 37px;
+  display: flex;
+  justify-content: space-between;
+}
+.card{
+  width: 256px;
+  background-color:#EEEEEE;
+}
+.card-figure img{
+  max-width: 256px;
+  width: 100%;
+}
+.card-price{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.card-price h2{
+  font-family: 'Ropa Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 27px;
+  color: #888888;
+  margin-left:12px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+.green{
+  background-color:#51D275;
+}
+
+.orange{
+  background-color:#DC9730;
+}
+.card-price p{
+  font-family: 'Ropa Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+  padding: 1px 4px;
+  border-radius: 10.5px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  margin-right: 18px;
+}
+
+.card-description {
+font-family: 'Ropa Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 11px;
+text-align: justify;
+color: #555555;
+padding: 12px;
+}
+
+footer{
+  background: #333333;
+  padding-top: 49px;
+}
+
+footer .container{
+  display: flex;
+  justify-content: space-between;
+}
+footer .container .footer-address{
+  display: flex;
+}
+
+footer .container .footer-address p{
+  font-family: 'Ropa Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 13px;
+  text-align: justify;
+  color: #FFFFFF;
+}
+
+footer .container .social{
+  display: flex;
+  align-items: center;
+}
